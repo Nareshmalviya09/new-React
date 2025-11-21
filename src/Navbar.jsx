@@ -10,7 +10,6 @@ const Navbar=()=>{
                 alert("not eleigible")
               }
    }
-
     return(
         <div>
                 <p className="nav">Navbar</p>
