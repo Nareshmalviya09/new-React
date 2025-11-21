@@ -1,4 +1,4 @@
-
+ import "./Navbar.css"
 const Navbar=()=>{
 // javaScript will be written here 
    const Hello=()=>{
@@ -13,7 +13,7 @@ const Navbar=()=>{
 
     return(
         <div>
-                <p>Navbar</p>
+                <p className="nav">Navbar</p>
                 <button onClick={Hello}>clicke me </button>
 
         </div>
