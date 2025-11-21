@@ -6,4 +6,11 @@ const Footer=()=>{
         <h1>footer</h1>
     )
 }
-export default Footer
+
+const Footer2=()=>{
+
+    return(
+        <h1>footer 2</h1>
+    )
+}
+export {Footer,Footer2}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Footer from './Footer'
+ import { Footer,Footer2 } from './Footer'
 const App=()=> {
   return (
     <div>
@@ -8,6 +8,7 @@ const App=()=> {
         <h1>Home Page </h1>
          
         <Footer/>
+        <Footer2/>
     </div>
   )
 }
