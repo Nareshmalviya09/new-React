@@ -10,12 +10,12 @@ const Navbar = () => {
         <div className="center">Hello Cybrom</div>
 
         <div className="right">
-
             <ul className='flex space-x-8'>
                 <li>Home</li>
                 <li>Contact Us</li>
                 <li>About</li>
                 <li>Services</li>
+                <button className='bg-amber-700 rounded text-0.3xl'>Download</button>
             </ul>
         </div>
     </div>
