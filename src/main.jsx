@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Inpt from './component/inpt'
-import FormHandling from './component/FormHandling'
+import FormValidation from './component/FormValidation'
+// import FormHandling from './component/FormHandling'
 // import Navbar from './component/Navbar'
 // import { BrowserRouter } from 'react-router-dom'
 //  import Props from './props'
@@ -15,7 +16,7 @@ import FormHandling from './component/FormHandling'
 
 createRoot(document.getElementById('root')).render(
    
-  <FormHandling/>
+<FormValidation/>
        
    
 )
