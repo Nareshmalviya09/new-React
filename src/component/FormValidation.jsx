@@ -6,7 +6,7 @@ const FormValidation = () => {
         email: "",
         number: ""
     })
-    
+     
     let handleChange=(e)=>{
         setform(  {...form,[e.target.name]: e.target.value}  )
     }
